@@ -30,6 +30,30 @@
     <p>邮箱：15902064741@163.com</p>
     <p></p>
     <p></p>
+    <audio id="backgroundMusic" loop>
+        <source src="http://music.163.com/song/media/outer/url?id=2630265905.mp3" type="audio/mp3">
+        您的浏览器不支持音频元素。
+    </audio>
+
+    <!-- 播放按钮 -->
+    <button onclick="playMusic()">播放音乐</button>
+    <!-- 停止按钮 -->
+    <button onclick="stopMusic()">停止音乐</button>
+
+    <script>
+        // 获取音频元素
+        const music = document.getElementById('backgroundMusic');
+
+        // 播放音频
+        function playMusic() {
+            music.play();
+        }
+
+        // 停止音频
+        function stopMusic() {
+            music.pause();
+            music.currentTime = 0;  // 将音频回到开头
+        }
     </script>
 </body>
 </html>
