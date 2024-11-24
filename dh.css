@@ -1,0 +1,45 @@
+/* 样式：清除默认样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar ul li a:hover {
+  background-color: #575757;
+}
+
+/* 页面内容样式 */
+section {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+}
+
+section h1 {
+  margin-bottom: 10px;
+}

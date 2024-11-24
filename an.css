@@ -1,0 +1,18 @@
+/* 设置按钮的背景色和文字颜色 */
+.my-button {
+    background-color: #96C6B0; /* 绿色背景 */
+    color: #88D2DE; /* 文字颜色为白色 */
+    border: none; /* 去掉按钮的边框 */
+    padding: 15px 32px; /* 设置按钮的内边距 */
+    text-align: center; /* 文字居中 */
+    text-decoration: none; /* 去掉文字下划线 */
+    display: inline-block; /* 设置按钮为内联块元素 */
+    font-size: 16px; /* 设置字体大小 */
+    cursor: pointer; /* 鼠标悬停时变成手形光标 */
+    border-radius: 8px; /* 设置圆角 */
+}
+
+/* 设置鼠标悬停时的颜色变化 */
+.my-button:hover {
+    background-color: #79A881; /* 悬停时更深的绿色 */
+}
